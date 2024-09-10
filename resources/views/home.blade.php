@@ -8,3 +8,8 @@
         @include('partials.shopinfo')
     </main>
 @endsection
+
+
+@section('titlePage')
+    Personaggi
+@endsection

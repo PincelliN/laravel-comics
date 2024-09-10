@@ -3,3 +3,8 @@
 @section('content')
     <h2>Pagina in Sviluppo</h2>
 @endsection
+
+
+@section('titlePage')
+    Film
+@endsection
