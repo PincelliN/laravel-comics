@@ -1,7 +1,7 @@
 <?php
-
+$links = config('menueas');
 $nav_menues = config('menueas.shop_Areas');
-
+$logo_links = config('logos');
 ?>
 
 <!DOCTYPE html>
@@ -21,12 +21,12 @@ $nav_menues = config('menueas.shop_Areas');
 <body>
 
     @include('partials.navbar')
-    {{--    @include('partials.jumbodrom') --}}
+    @include('partials.jumbodrom')
 
 
     {{-- @yield('content') --}}
 
-    {{--    @include('partials.footer') --}}
+    @include('partials.footer')
 
 </body>
 

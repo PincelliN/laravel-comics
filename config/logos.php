@@ -14,12 +14,12 @@ return[
      [
         'name'=>'You Tube',
         'text'=>'You Tube',
-        'logo'=>'/img/footer-You Tube.png'
+        'logo'=>'/img/footer-pinterest.png'
     ],
      [
         'name'=>'You Tube',
         'text'=>'You Tube',
-        'logo'=>'/img/footer-You Tube.png'
+        'logo'=>'/img/footer-youtube.png'
     ],
      [
         'name'=>'Periscope',

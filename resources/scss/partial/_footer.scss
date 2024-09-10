@@ -1,12 +1,12 @@
 /* @use "./variables" as *; */
 
 .back {
-    background-image: url(../assets/footer-bg.jpg);
+    background-image: url(/public/img/footer-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
     .list-box {
-        background-image: url(../assets/dc-logo-bg.png);
+        background-image: url(/public/img/dc-logo-bg.png);
         background-size: 440px;
         background-position: 100% 50%;
         background-repeat: no-repeat;
@@ -16,7 +16,7 @@
         align-items: flex-start;
         align-content: flex-start;
         flex-wrap: wrap;
-        height: 330px;
+        height: 440px;
         width: 80%;
         margin: 0 auto;
         padding: 10px;
