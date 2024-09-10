@@ -1,6 +1,6 @@
 <header>
     <div>
-        <img src="/img/dc-logo.png" alt="">
+        <img src={{ Vite::asset('resources\img\dc-logo.png') }} alt="">
         <nav>
             <ul>
                 @foreach ($nav_menues as $menu)
