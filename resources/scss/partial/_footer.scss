@@ -1,0 +1,88 @@
+@use "./variables" as *;
+
+.back {
+    background-image: url(../assets/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .list-box {
+        background-image: url(../assets/dc-logo-bg.png);
+        background-size: 440px;
+        background-position: 100% 50%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        height: 330px;
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px;
+        gap: 10px;
+
+        div {
+            margin-top: 10px;
+
+            h4 {
+                color: $fourth-color;
+                text-transform: uppercase;
+                font-weight: bolder;
+                margin-bottom: 5px;
+            }
+
+            ul {
+                color: $fifth-color;
+                text-transform: capitalize;
+
+                li:hover {
+                    color: $fourth-color;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: $first-color;
+
+    section {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        button {
+            background-color: $first-color;
+            border: 1px solid $third-color;
+            padding: 5px;
+            color: $fourth-color;
+            text-transform: uppercase;
+        }
+
+        div {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            h3 {
+                color: $third-color;
+                text-transform: uppercase;
+            }
+
+            ul {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 8px;
+                padding: 10px;
+
+                img {
+                    width: 25px;
+                }
+            }
+        }
+    }
+}
