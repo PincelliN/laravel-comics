@@ -1,11 +1,15 @@
 <header>
     <div>
-        <img src="../assets/dc-logo.png" alt="">
+        <img src="/img/dc-logo.png" alt="">
         <nav>
             <ul>
-                <li v-for="link in links" :class="link.state === true ? 'active' : ''">
-                    <a :href="link.url">{{ link . text }}</a>
-                </li>
+                @foreach ($nav_menues as $menu)
+                    <li>
+                        <a
+                            href="{{ $menu['name'] === 'characters' ? route('home') : route($menu['name']) }} ">{{ $menu['text'] }}</a>
+                    </li>
+                @endforeach
+
             </ul>
         </nav>
     </div>

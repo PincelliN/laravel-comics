@@ -14,15 +14,43 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $title = 'Layout base - HOME';
-    $text = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo modi, iusto dolore eaque laudantium optio, adipisci perspiciatis voluptate obcaecati sit perferendis natus velit ut! Tempora voluptatum ipsam modi rem voluptas.';
-    return view('home', compact('text', 'title'));
+
+    return view('home', );
 })->name('home');
 
-Route::get('/chi-siamo', function () {
-    return view('about');
-})->name('about');
+Route::get('/Fumetti', function () {
+    return view('comics');
+})->name('comics');
 
-Route::get('/contatti', function () {
-    return view('contacts');
-})->name('contacts');
+Route::get('/Films', function () {
+    return view('movies');
+})->name('movies');
+
+
+Route::get('/tv', function () {
+    return view('tv');
+})->name('tv');
+
+Route::get('/Giochi', function () {
+    return view('games');
+})->name('games');
+
+Route::get('/Collezionabili', function () {
+    return view('collectibles');
+})->name('collectibles');
+
+Route::get('/Videos', function () {
+    return view('videos');
+})->name('videos');
+
+Route::get('/Fans', function () {
+    return view('fans');
+})->name('fans');
+
+Route::get('/Novità', function () {
+    return view('news');
+})->name('news');
+
+Route::get('/Negozio', function () {
+    return view('shop');
+})->name('shop');
